@@ -1,0 +1,83 @@
+.palet {
+    color: #ffbb91;
+    color: #065c6f;
+    color: #64958f;
+    color: #faf3dd;
+}
+
+.main_header {
+    position: relative;
+
+    height: 100vh;
+
+    background-color: #065c6f;
+}
+
+.main_menu {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffbb91;   
+}
+
+.main_menu_item {
+    margin: 0 5%;
+
+    border-radius: 10px;
+
+    transition: all .4s;
+}
+
+.main_menu_item:hover {
+    background-color: #faf3dd;
+}
+
+.main_menu_link {
+    padding: 10px;
+
+    color: #065c6f;
+    font-size: 17px;
+    font-weight: 600;
+
+    transition: all .2s;
+}
+
+.main_menu_link:hover{
+    color: #64958f;
+}
+
+.link_start_kours {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 10px;
+
+    background-color: #ffbb91;
+
+    border-radius: 10px;
+
+    text-transform: uppercase;
+    font-size-adjust: 31px;
+
+    transition: all .4s;
+}
+
+.link_start_kours a {
+    color: #065c6f;
+}
+
+.link_start_kours:hover {
+    background-color: #faf3dd;
+}
